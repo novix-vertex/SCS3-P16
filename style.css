@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    padding-inline: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header img {
+    width: 140px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+header .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header .btns button {
+    padding-block: 15px;
+    padding-inline: 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+header .btns .login-bt {
+    background-color: #E9E6F4;
+}
+
+header .btns .contacts-bt {
+    background-color: #070412;
+    color:  #fff;
+}
