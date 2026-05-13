@@ -217,7 +217,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 10px;
     border-radius: 10px;
     gap: 10px;
     position: relative;
