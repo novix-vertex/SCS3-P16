@@ -220,6 +220,7 @@ button {
     padding: 10px;
     border-radius: 10px;
     gap: 10px;
+    position: relative;
 }
 
 .explore-section .card img {
@@ -238,6 +239,7 @@ button {
     align-items: space-between;
     background-color: #FAFAFA;
     flex: 2;
+    padding:20px;
 }
 
 
@@ -254,26 +256,41 @@ button {
 .explore-section .card .card-info {
     display: flex;
     justify-content: space-between;
-}
+  }
 
 .explore-section .card3 .card-info {
     flex-direction: column;
     align-items: justify-between;
 }
-.explore-section .card3 .card-info i{
+
+.explore-section .card3 .card-info i {
     background-color: #000;
     color: #fff;
     border-radius: 50%;
 }
-.explore-section .card3 h2{
+
+.explore-section .card3 h2 {
     font-weight: 400;
     font-size: 28px;
     width: 88%;
 }
-.explore-section .card3 h5{
+
+.explore-section .card3 h5 {
     letter-spacing: 4px;
     font-weight: 300;
-    color:#666;
+    color: #666;
     text-transform: uppercase;
-    padding-bottom:30px;
+    padding-bottom: 30px;
+}
+
+.explore-section .card1 i,
+.explore-section .card2 i {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+    right: 20px;
+    top: 20px;
 }
